@@ -14,11 +14,10 @@ I) UML Diagrams of Client Side Application
   2) Sequence Diagram for Employee: https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20employee.png
   3) Sequence Diagram for Manager:
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20manager.jpg
-# Source Code for Client Side Application (Android Application)
-https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/tree/master/src/com/example/project_samples
-# Required Libraries for Android Application
+II) Source Code for Client Side Application (Android Application): https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/tree/master/src/com/example/project_samples
+III) Required Libraries for Android Application
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/tree/master/libs
-# Setting Up Required Permissions for Android Application (Using Manifest File)
+IV) Setting Up Required Permissions for Android Application (Using Manifest File)
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/AndroidManifest.xml
-# Software Installation and Usage (Java and Adt Bundle) to Develop Android Application
+V) Software Installation and Usage (Java and Adt Bundle) to Develop Android Application
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Software%20installation%20and%20usage.pdf
