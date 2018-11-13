@@ -16,9 +16,9 @@ https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/bl
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20manager.jpg
 # Source Code for Client Side Application (Android Application)
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/tree/master/src/com/example/project_samples
-# Required Libraries
+# Required Libraries for Android Application
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/tree/master/libs
-# Setting Required Permissions for Android Application (Using Manifest File)
+# Setting Up Required Permissions for Android Application (Using Manifest File)
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/AndroidManifest.xml
 # Software Installation and Usage (Java and Adt Bundle)
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Software%20installation%20and%20usage.pdf
