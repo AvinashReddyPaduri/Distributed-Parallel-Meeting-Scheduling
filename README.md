@@ -7,7 +7,7 @@ This application is divided as:
 1) Client Side Application: This is an Android application with GUIs for use to both employees and managers
 2) Application Server: The application server is responsible for all the CRUD (create, read, update and delete) operations on the application database. It stores the employee’s or manager’s details on registration, deletes the details of the employee’s or manager’s on deregister, updates the employee’s location and reads the clients locations when manager wants to schedule the meeting.
 3) Application Database: Application Database (MySql) is used to store the details of the employees and managers persistently.
-4) GCMServer: The GCM Server is used to get the device registration id or GCM id for employees. This id is used to send the notification to the employees by the manager.
+4) GCMServer: The GCM Server is used to get the device registration id or GCM id for employees. This id is used to send the notification to the employees by the manager. From client side application, we have used methods of Google APIs (gcm.jar in lib folder) to get the GCM id and to send push notification.
 # Client Side Application
 I) UML Diagrams of Client Side Application
   1) Class Diagram: https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Class%20Diagram.jpg
