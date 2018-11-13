@@ -8,12 +8,11 @@ This application is divided as:
 2) Application Server: The application server is responsible for all the CRUD (create, read, update and delete) operations on the application database. It stores the employee’s or manager’s details on registration, deletes the details of the employee’s or manager’s on deregister, updates the employee’s location and reads the clients locations when manager wants to schedule the meeting.
 3) Application Database: Application Database (MySql) is used to store the details of the employees and managers persistently.
 4) GCMServer: The GCM Server is used to get the device registration id or GCM id for employees. This id is used to send the notification to the employees by the manager.
-# UML Diagrams of Client Side Application
-1) Class Diagram:
-https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Class%20Diagram.jpg
-2) Sequence Diagram for Employee:
-https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20employee.png
-3) Sequence Diagram for Manager:
+# Client Side Application
+I) UML Diagrams of Client Side Application
+  1) Class Diagram: https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Class%20Diagram.jpg
+  2) Sequence Diagram for Employee: https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20employee.png
+  3) Sequence Diagram for Manager:
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20manager.jpg
 # Source Code for Client Side Application (Android Application)
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/tree/master/src/com/example/project_samples
