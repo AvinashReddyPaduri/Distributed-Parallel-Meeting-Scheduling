@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical">
+
+    <ScrollView android:layout_width="fill_parent"
+        		android:layout_height="fill_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical">
+
+        <TextView
+            android:id="@+id/registertitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="68dp"
+            android:text="DPMS"
+            android:textColor="@color/orange"
+            android:textSize="30dp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ruserid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="58dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword">
+        </EditText>
+
+        <EditText
+            android:id="@+id/ruserid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/password"
+            android:layout_below="@+id/registertitle"
+            android:layout_marginTop="80dp"
+            android:ems="10"
+            android:hint="Org id" >
+
+            <requestFocus />
+        </EditText>
+
+        <RadioGroup
+            android:id="@+id/type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/password"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/employee"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="employee" />
+
+            <RadioButton
+                android:id="@+id/manager"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="manager"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/login"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/type"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="39dp"
+            android:onClick="login"
+            android:text="Login" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/register"
+            android:layout_alignBottom="@+id/register"
+            android:layout_toLeftOf="@+id/login"
+            android:onClick="deRegister"
+            android:text="Deregister" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/login"
+            android:layout_alignBottom="@+id/login"
+            android:layout_marginLeft="28dp"
+            android:layout_toRightOf="@+id/registertitle"
+            android:clickable="true"
+            android:onClick="resetPassword"
+            android:text="forgot password"
+            android:textColor="@color/blue"
+            android:textSize="18dp"
+            android:textStyle="italic"
+            android:typeface="normal" />
+
+        <Button
+            android:id="@+id/register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/login"
+            android:layout_marginTop="35dp"
+            android:layout_toRightOf="@+id/registertitle"
+            android:onClick="register"
+            android:text="Register" />
+
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>

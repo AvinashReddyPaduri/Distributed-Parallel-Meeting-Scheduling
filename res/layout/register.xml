@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:scrollbarAlwaysDrawVerticalTrack="true"
+    android:scrollbars="vertical">
+    
+    <ScrollView android:layout_width="fill_parent"
+        		android:layout_height="fill_parent">
+        		
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:scrollbarAlwaysDrawVerticalTrack="true"
+        android:scrollbars="vertical" >
+
+        <EditText
+            android:id="@+id/ruserid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/registertitle"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="33dp"
+            android:ems="10"
+            android:hint="User Name">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/rpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ruserid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPassword"/>
+
+        <EditText
+            android:id="@+id/rorgid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/remailid"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="21dp"
+            android:ems="10"
+            android:hint="org id(this will be your user id for dpms)" />
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/registertitle"
+            android:layout_below="@+id/rorgid"
+            android:layout_marginRight="147dp"
+            android:layout_marginTop="58dp"
+            android:text="Select Role"
+            android:textSize="20dp" />
+
+        <ToggleButton
+            android:id="@+id/rrole"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/title"
+            android:layout_alignBottom="@+id/title"
+            android:layout_alignRight="@+id/rorgid"
+            android:layout_marginRight="12dp"
+            android:onClick="onRoleChange"
+            android:text="ToggleButton"
+            android:textOff="Employee"
+            android:textOn="Manager" />
+
+        <EditText
+            android:id="@+id/rorgname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/title"
+            android:layout_alignRight="@+id/rorgid"
+            android:layout_below="@+id/rrole"
+            android:layout_marginTop="24dp"
+            android:ems="10"
+            android:hint="Organization name(for managers)" />
+
+        <Spinner
+            android:id="@+id/rorgemp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/registertitle"
+            android:layout_below="@+id/rorgname"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:id="@+id/orgdisplay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/rorgemp"
+            android:layout_marginTop="18dp"
+            android:layout_toLeftOf="@+id/rorgid"
+            android:text="Select Organization"
+            android:textSize="12dp" />
+
+        <EditText
+            android:id="@+id/rphoneno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rpassword"
+            android:layout_below="@+id/rpassword"
+            android:layout_marginTop="37dp"
+            android:ems="10"
+            android:inputType="phone"
+            android:hint="Phone no"/>
+
+        <EditText
+            android:id="@+id/remailid"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/rorgid"
+            android:layout_below="@+id/rphoneno"
+            android:layout_marginTop="44dp"
+            android:ems="10"
+            android:hint="Email id" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/gender"
+            android:layout_alignRight="@+id/orgdisplay"
+            android:layout_marginRight="22dp"
+            android:text="Gender"
+            android:textSize="15dp" />
+
+        <RadioGroup
+            android:id="@+id/gender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/rorgemp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:orientation="horizontal" >
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="female" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/registertitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="27dp"
+            android:text="DPMS Registration"
+            android:textColor="@color/orange"
+            android:textSize="20dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gender"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="23dp"
+            android:onClick="register"
+            android:text="Register" />
+
+    </RelativeLayout>
+    </ScrollView>
+</LinearLayout>
