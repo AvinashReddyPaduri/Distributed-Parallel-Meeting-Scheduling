@@ -47,8 +47,8 @@ public class Schedule extends Activity{
 	Boolean isCentralLocationCalculated = false;
 	int count = 0;//if cpmbineLatLng() is called twice and still there is no response, then it indicates there is an error
 	
-	//public static final String URLRETRIEVELAT = "http://dpmsproject.comlu.com/retrivelat.php";
-	//public static final String URLRETRIEVELNG = "http://dpmsproject.comlu.com/retrievelong.php";
+	//public static final String URLRETRIEVELAT = "dpms latitude retriever php file";
+	//public static final String URLRETRIEVELNG = "dpms longitude retriever php file";
 	public static final String SUCCESS ="success";
 	public static final String MESSAGE ="message";
 	
