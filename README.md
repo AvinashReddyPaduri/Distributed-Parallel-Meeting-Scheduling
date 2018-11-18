@@ -15,7 +15,7 @@ I) UML Diagrams of Client Side Application
   2) Sequence Diagram for Employee:
   <img src="./Sequence diagram for employee.png">
   3) Sequence Diagram for Manager:
-<img src="./Sequence diagram for manager.png">
+<img src="./Sequence diagram for manager.jpg">
 
 II) Source Code for Client Side Application (Android Application): https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/tree/master/src/com/example/project_samples
 
