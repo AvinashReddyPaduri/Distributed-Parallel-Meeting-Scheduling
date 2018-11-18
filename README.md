@@ -11,6 +11,7 @@ This application is divided as:
 # Client Side Application
 I) UML Diagrams of Client Side Application
   1) Class Diagram: https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Class%20Diagram.jpg
+  <img src="./Class Diagram.jpg">
   2) Sequence Diagram for Employee: https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20employee.png
   3) Sequence Diagram for Manager:
 https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20manager.jpg
