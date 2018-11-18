@@ -10,11 +10,12 @@ This application is divided as:
 4) GCMServer: The GCM Server is used to get the device registration id or GCM id for employees. This id is used to send the notification to the employees by the manager. From client side application, we have used methods of Google APIs (gcm.jar in lib folder) to get the GCM id and to send push notification.
 # Client Side Application
 I) UML Diagrams of Client Side Application
-  1) Class Diagram: https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Class%20Diagram.jpg
+  1) Class Diagram:
   <img src="./Class Diagram.jpg">
-  2) Sequence Diagram for Employee: https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20employee.png
+  2) Sequence Diagram for Employee:
+  <img src="./Sequence diagram for employee.png">
   3) Sequence Diagram for Manager:
-https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/blob/master/Sequence%20diagram%20for%20manager.jpg
+<img src="./Sequence diagram for manager.png">
 
 II) Source Code for Client Side Application (Android Application): https://github.com/AvinashReddyPaduri/Distributed-Parallel-Meeting-Scheduling/tree/master/src/com/example/project_samples
 
